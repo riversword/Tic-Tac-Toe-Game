@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial=">
+<link rel="stylesheet" type="text/css" href="Tic Tac Toe Game.css">
+</head>
+<body>
+<div class="main">
+	<h3>Tic Tac Game</h3>
+	<div class="vsInfo">
+		<table>
+			<tr><td>player1</td> <td>o</td> <td>0 win</td> </tr>
+			<tr class="vsCom"><td>computer</td> <td>x</td> <td>0 win</td> </tr>
+			<tr class="vsPer disappear"><td>player2</td> <td>x</td> <td>0 win</td> </tr>
+		</table>
+		<div class="changeMode disappear">
+			<span><em></em></span>
+			<p>click to "person VS person"</p>
+		</div>
+		
+	</div>
+	<div class="gameMap">
+	<table>
+		<tr><td id="0"></td> <td id="1"></td> <td id="2"></td></tr>
+		<tr><td id="3"></td> <td id="4"></td> <td id="5"></td></tr>
+		<tr><td id="6"></td> <td id="7"></td> <td id="8"></td></tr>
+	</table>
+	<div>
+	<div class="cover disappear">
+		<div class="tipInfo"><p>The winner is <span>player1</span></p><button>play again</button><button class="disappear">restart</button></div>
+	</div>
+	  <div class="footer">
+		<span>Copyright &copy;2017&nbsp;riversword.&nbsp;All rights reserved. </span> </div>
+</div>
+</div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script type="text/javascript" src="Tic Tac Toe Game.js"></script>
+</body>
+</html>
